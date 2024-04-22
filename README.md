@@ -1,16 +1,20 @@
+# 💌 Mobile Wedding Invitation 💌
+
+![훑어보기.gif](..%2F..%2FDownloads%2F%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0.gif)
 
 
-# Mobile Wedding Invitation
-
-## 프로젝트 설명
 이 프로젝트는 모바일 청첩장 입니다.
 
 React와 Typescript를 기반으로 개발되었으며, Vite를 사용하여 빠르고 간편한 개발 환경을 제공합니다. 
 
-eslint와 prettier를 적용하여 코드의 일관성과 품질을 유지하고, emotion/styled를 활용하여 스타일링을 헸습니다.
+eslint와 prettier를 적용했고, emotion/styled를 활용하여 스타일링을 헸습니다.
 
 갤러리는 react-photoswipe-gallery, 지도는 react-naver-maps 를 사용했습니다.
 
+js-confetti를 이용하여 귀여운 컨페티 기능을 넣었습니다.
+
+
+---
 
 ## 목차
 1. 프로젝트 설치 및 실행 방법
@@ -19,6 +23,8 @@ eslint와 prettier를 적용하여 코드의 일관성과 품질을 유지하고
 4. 참고 자료
 5. 라이센스
 
+
+---
 
 ### 프로젝트 설치 및 실행 방법
 1. 저장소를 클론합니다.
@@ -41,6 +47,7 @@ npm install
 npm run dev
 ```
 
+---
 ### 커스텀 체크리스트
 
 - [ ] `src/data.json` 청첩장에 들어갈 정보를 수정합니다.
@@ -51,6 +58,7 @@ npm run dev
 - [ ] (선택) `src/firebase.ts` likes, 방명록을 사용한다면 firebase sdk 설정이 필요합니다.
 - [ ] (선택) `src/data.json` 혼주 계좌번호 작성시 `kakaopayAccount`, `tossAccount` 항목을 이용해 카카오페이나 토스 링크를 추가할 수 있습니다.
 
+---
 ### 참고 자료
 - 개발자: [heejin-hwang](https://github.com/heejin-hwang)
 - react-photoswipe-gallery 라이브러리: [react-photoswipe-gallery](https://www.npmjs.com/package/react-photoswipe-gallery)
