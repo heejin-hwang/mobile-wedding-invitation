@@ -29,7 +29,7 @@ cd mobile-wedding-invitation
 ```
 npm install
 ```
-4. (필수) .env 파일을 생성하고, VITE_APP_NAVERMAPS_CLIENT_ID에 `clinet_id`를 채웁니다. `client_id`는 [NAVER CLOUD PLATFORM](https://console.ncloud.com/naver-service/application) 에서 어플리케이션 등록 후 발급받을 수 있습니다.
+4. (필수) `.env.sample` 파일의 이름을 `.env`으로 바꾸고, VITE_APP_NAVERMAPS_CLIENT_ID에 Naver Cloud에서 발급 받은 `client_id`로 채웁니다. `client_id`는 [NAVER CLOUD PLATFORM](https://console.ncloud.com/naver-service/application) 에서 어플리케이션 등록 후 발급받을 수 있습니다.
 5. (선택) likes와 방명록 기능 사용을 원한다면 Firebase 설정이 필요합니다. src/firebase.ts 파일에 Firebase SDK를 설정합니다. [Firebase](https://firebase.google.com/docs/web/setup?hl=ko) 문서를 참고하여 SDK를 설정할 수 있습니다.
 6. 사용자 정의가 필요한 파일들을 수정합니다. (아래의 체크리스트 참고)
 7. 애플리케이션을 실행합니다.
