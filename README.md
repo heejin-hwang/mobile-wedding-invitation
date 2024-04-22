@@ -15,16 +15,8 @@ js-confetti를 이용하여 귀여운 컨페티 기능을 넣었습니다.
 
 
 
-## 목차
-1. 프로젝트 설치 및 실행 방법
-2. 프로젝트 사용 방법
-3. 커스텀 해야하는 파일
-4. 참고 자료
-5. 라이센스
+## 프로젝트 설치 및 실행 방법
 
-
-
-### 프로젝트 설치 및 실행 방법
 1. 저장소를 클론합니다.
 ```
 git clone https://github.com/your-username/mobile-wedding-invitation.git
@@ -46,7 +38,7 @@ npm run dev
 ```
 
 
-### 커스텀 체크리스트
+## 커스텀 체크리스트
 
 - [ ] `src/data.json` 청첩장에 들어갈 정보를 수정합니다.
 - [ ] `index.html` 파비콘, title, og tag에 쓰일 meta tag 등을 수정합니다.
@@ -57,7 +49,8 @@ npm run dev
 - [ ] (선택) `src/data.json` 혼주 계좌번호 작성시 `kakaopayAccount`, `tossAccount` 항목을 이용해 카카오페이나 토스 링크를 추가할 수 있습니다.
 
 
-### 참고 자료
+## 참고 자료
+
 - 개발자: [heejin-hwang](https://github.com/heejin-hwang)
 - react-photoswipe-gallery 라이브러리: [react-photoswipe-gallery](https://www.npmjs.com/package/react-photoswipe-gallery)
 - react-naver-maps 공식문서: [react-naver-maps](https://zeakd.github.io/react-naver-maps/)
