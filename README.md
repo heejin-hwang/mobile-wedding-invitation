@@ -38,6 +38,7 @@ npm run dev
 ```
 
 
+
 ## 커스텀 체크리스트
 
 - [ ] `src/data.json` 청첩장에 들어갈 정보를 수정합니다.
@@ -47,6 +48,7 @@ npm run dev
 - [ ] `.env` VITE_APP_NAVERMAPS_CLIENT_ID=client_id 입력이 필요합니다.
 - [ ] (선택) `src/firebase.ts` likes, 방명록을 사용한다면 firebase sdk 설정이 필요합니다.
 - [ ] (선택) `src/data.json` 혼주 계좌번호 작성시 `kakaopayAccount`, `tossAccount` 항목을 이용해 카카오페이나 토스 링크를 추가할 수 있습니다.
+
 
 
 ## 참고 자료
