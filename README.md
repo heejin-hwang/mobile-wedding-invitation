@@ -1,7 +1,6 @@
 # 💌 Mobile Wedding Invitation 💌
 
-![훑어보기.gif](..%2F..%2FDownloads%2F%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0.gif)
-
+![훑어보기.gif](%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0.gif)
 
 이 프로젝트는 모바일 청첩장 입니다.
 
