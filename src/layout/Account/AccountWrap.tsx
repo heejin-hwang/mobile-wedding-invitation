@@ -61,7 +61,7 @@ const AccountWrap = ({
 };
 
 const Wrapper = styled.div`
-  font-family: 'Pretendard';
+  font-family: 'SUITE-Regular';
   padding: 10px 0;
   border-bottom: 1px solid #dfdfdf;
   &:last-of-type {
@@ -79,8 +79,12 @@ const Info = styled.div`
   gap: 5px;
   margin: 5px 0;
 `;
-const Relation = styled.span``; // Add appropriate styles
-const Name = styled.span``; // Add appropriate styles
+const Relation = styled.span`
+  color: #44484d;
+`;
+const Name = styled.span`
+  font-size: 1rem
+`;
 
 const Details = styled.div`
   display: flex;
