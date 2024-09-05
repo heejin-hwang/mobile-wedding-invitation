@@ -25,8 +25,8 @@ const PhotoGallery = () => {
               cropped
               original={image.source}
               thumbnail={image.source}
-              width="1280"
-              height="1920">
+              width={image.width}
+              height={image.height}>
               {({ ref, open }) => (
                 <img
                   style={smallItemStyles}
