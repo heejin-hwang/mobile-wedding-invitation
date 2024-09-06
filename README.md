@@ -46,7 +46,7 @@ npm run dev
 - [ ] `src/data.json` 청첩장에 들어갈 정보를 수정합니다.
 - [ ] `index.html` 파비콘, title, og tag에 쓰일 meta tag 등을 수정합니다.
 - [ ] `public/thumbnail.jpg` 썸네일 사진을 수정합니다.
-- [ ] `src/layout/Gallery/PhotoGallery.tsx` 사용할 사진들에 맞게 사진 사이즈를 수정합니다.
+- [ ] `assets/images`에 갤러리에 들어갈 사진을 넣고, `src/layout/Gallery/Images.ts` 에서 import합니다. 이곳에서 사진에 맞게 사이즈를 수정합니다.
 - [ ] `.env` VITE_APP_NAVERMAPS_CLIENT_ID=client_id 입력이 필요합니다.
 - [ ] (선택) `src/firebase.ts` likes, 방명록을 사용한다면 firebase sdk 설정이 필요합니다.
 - [ ] (선택) `src/data.json` 혼주 계좌번호 작성시 `kakaopayAccount`, `tossAccount` 항목을 이용해 카카오페이나 토스 링크를 추가할 수 있습니다.
