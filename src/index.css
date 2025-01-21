@@ -35,7 +35,7 @@ body {
 
 @font-face {
   font-family: 'KOTRA-SONGEULSSI';
-  src: url('/KOTRA-SONGEULSSI.oft') format('truetype');
+  src: url('/KOTRA-SONGEULSSI.otf') format('truetype');
 }
 /* 
 @font-face {
