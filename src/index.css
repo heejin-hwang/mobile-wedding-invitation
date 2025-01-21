@@ -1,5 +1,5 @@
 body {
-  font-family: SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: KOTRA-SONGEULSSI, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,9 +16,28 @@ body {
   min-width: 280px;
   display: flex;
   justify-content: center;
-  background-color: #E0E7D9;
+  /* background-color: #fddfdf; */
+  /* background-color: #E0E7D9; */
+  background-color: white;
 }
 
+@font-face {
+  font-family: 'Broadcast-Matter';
+  src: url('/Broadcast-Matter.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HSSanTokki20-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KOTRA-SONGEULSSI';
+  src: url('/KOTRA-SONGEULSSI.oft') format('truetype');
+}
+/* 
 @font-face {
   font-family: 'HSSanTokki20-Regular';
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
@@ -31,4 +50,4 @@ body {
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
-}
+} */

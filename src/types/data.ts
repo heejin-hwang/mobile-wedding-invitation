@@ -24,6 +24,8 @@ export interface IGreeting {
     };
   };
   eventDetail: string;
+  te1: string;
+  tel2: string;
 }
 
 export interface BrideAndGroom {

@@ -3,15 +3,24 @@ import 'photoswipe/style.css';
 import images from '@/layout/Gallery/Images.ts';
 
 const PhotoGallery = () => {
+  const options = {
+    wheelToZoom: false,
+    secondaryZoomLevel: 1,
+    maxZoomLevel: 1,
+    zoom: false,
+    pinchToClose: true,
+  }
   const smallItemStyles: React.CSSProperties = {
     cursor: 'pointer',
     objectFit: 'contain',
     width: '100px',
     height: '150px',
+    // touchAction: 'none',
+    // msTouchAction: '-ms-none',
   };
 
   return (
-    <Gallery>
+    <Gallery options={options}>
       <div
         style={{
           display: 'grid',

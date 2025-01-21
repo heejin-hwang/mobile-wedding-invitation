@@ -12,12 +12,20 @@ const Invitation = () => {
       <Host />
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
       {/* TODO: 구글캘린더 추가하기 기능을 넣는다면 링크 수정 */}
-      <RoundButton
-        target="_blank"
-        href=""
-        rel="noreferrer">
-        구글 캘린더 추가하기
-      </RoundButton>
+      <ContactWrapper>
+        <RoundButton
+          target="_blank"
+          href={`tel:${greeting.tel1}`}
+          rel="noreferrer">
+          신랑에게 연락하기
+        </RoundButton>
+        <RoundButton
+          target="_blank"
+          href={`tel:${greeting.tel2}`}
+          rel="noreferrer">
+          신부에게 연락하기
+        </RoundButton>
+      </ContactWrapper>
     </InvitationWrapper>
   );
 };
@@ -29,4 +37,10 @@ const InvitationWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
+`;
+
+const ContactWrapper = styled.div`
+  display: flex;
+  gap: 20px;
+  align-items: center;
 `;

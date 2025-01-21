@@ -35,6 +35,7 @@ const FloatingBar = ({ isVisible }: { isVisible: boolean }) => {
   };
 
   const handleCount = () => {
+    // !TODO : confetti 모듈 변경 후 색종이 효과로 만들기
     void jsConfetti.addConfetti({ emojis });
 
     // 버튼 클릭시 likes 수 증가
