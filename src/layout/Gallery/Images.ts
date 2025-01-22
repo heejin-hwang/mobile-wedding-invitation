@@ -76,8 +76,8 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
   },{
     alt: 'image11',
     source: image11,
-    width: 320,
-    height: 480
+    width: 640,
+    height: 960
   },{
     alt: 'image12',
     source: image12,
@@ -116,18 +116,18 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
   },{
     alt: 'image19',
     source: image19,
-    width: 960,
-    height: 640,
+    width: 640,
+    height: 960
   },{
     alt: 'image20',
     source: image20,
-    width: 960,
-    height: 640,
+    width: 640,
+    height: 960
   },{
     alt: 'image21',
     source: image21,
-    width: 960,
-    height: 640,
+    width: 640,
+    height: 960
   }
 ];
 

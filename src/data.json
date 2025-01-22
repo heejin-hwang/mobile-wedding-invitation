@@ -1,40 +1,40 @@
 {
   "greeting": {
-    "title": "장세모 \uD83D\uDC8D 황네모\n결혼합니다!",
-    "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
+    "title": "심수연 & 남현철 \n결혼합니다!",
+    "message": "저희 결혼합니다.\n두 사람이 함께 맞는 여섯 번째 봄, \n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
     "host": {
       "groom": {
-        "name": "세모",
+        "name": "현철",
         "relation": "아들",
         "parents": [
           {
             "relation": "아버지",
-            "name": "장아빠"
+            "name": "남동현"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "김미진"
           }
         ]
       },
       "bride": {
-        "name": "네모",
+        "name": "수연",
         "relation": "딸",
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "심인규"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "송미영"
           }
         ]
       }
     },
-    "eventDetail": "2024년 2월 17일 (토) 14:00\n아펠가모 공덕 라로브홀",
-    "tel1": "01012341234",
-    "tel2": "01022999222"
+    "eventDetail": "2025년 4월 26일 (토) 13:00\n아르델웨딩컨벤션 2층 클로리스 홀",
+    "tel1": "01062283266",
+    "tel2": "01099656954"
   },
   "hostInfo": [
     {
@@ -66,10 +66,10 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "황네모",
+          "name": "심수연",
           "relation": "신부",
           "bank": "토스뱅크",
-          "account": "1234-5678-9012",
+          "account": "1000-0982-2511",
           "kakaopayAccount": "",
           "tossAccount": ""
         },

@@ -1,5 +1,5 @@
 body {
-  font-family: KOTRA-SONGEULSSI, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: NanumRound, NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,9 +16,10 @@ body {
   min-width: 280px;
   display: flex;
   justify-content: center;
-  /* background-color: #fddfdf; */
+  background: linear-gradient(#fcfcfc, #ffdbcf)
+
   /* background-color: #E0E7D9; */
-  background-color: white;
+  /* background-color: white; */
 }
 
 @font-face {
@@ -27,23 +28,25 @@ body {
 }
 
 @font-face {
-  font-family: 'HSSanTokki20-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'NanumRound';
+  src: url('/NanumSquareRoundOTFL.otf') format('truetype');
 }
 
 @font-face {
-  font-family: 'KOTRA-SONGEULSSI';
-  src: url('/KOTRA-SONGEULSSI.otf') format('truetype');
+  font-family: 'NEXONLv1Light';
+  src: url('/NEXON Lv1 Gothic Low OTF Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NEXONLv1Bold';
+  src: url('/NEXON Lv1 Gothic Low OTF Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CookieRun';
+  src: url('/CookieRun Regular.otf') format('truetype');
 }
 /* 
-@font-face {
-  font-family: 'HSSanTokki20-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'SUITE-Regular';

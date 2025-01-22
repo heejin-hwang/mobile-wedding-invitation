@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Heading1 = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: CookieRun ,NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   margin: 10px;
   color: #e88ca6;
@@ -15,7 +15,7 @@ export const Heading2 = styled.p`
 `;
 
 export const PointTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: CookieRun ,NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1;
   margin: 0;
   color: #e88ca6;

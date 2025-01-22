@@ -9,18 +9,19 @@ const Invitation = () => {
   return (
     <InvitationWrapper>
       <Paragraph>{greeting.message}</Paragraph>
+      <MiddleImg />
       <Host />
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
       {/* TODO: 구글캘린더 추가하기 기능을 넣는다면 링크 수정 */}
       <ContactWrapper>
         <RoundButton
-          target="_blank"
+          target='_blank'
           href={`tel:${greeting.tel1}`}
           rel="noreferrer">
           신랑에게 연락하기
         </RoundButton>
         <RoundButton
-          target="_blank"
+          target='_blank'
           href={`tel:${greeting.tel2}`}
           rel="noreferrer">
           신부에게 연락하기
@@ -43,4 +44,13 @@ const ContactWrapper = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+`;
+
+const MiddleImg = styled.div`
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 20px;
+    height: 40px;
+    background: url(/src/assets/images/icon_flower.png);
+    background-size: cover;
 `;

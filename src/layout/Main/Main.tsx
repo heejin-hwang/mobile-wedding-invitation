@@ -6,7 +6,8 @@ const Main = () => {
   const { greeting } = data;
   return (
     <div>
-      <Phrase>Wedding Day</Phrase>
+      <Phrase>2025 / 04 / 26</Phrase>
+      <Phrase2>SATURDAY</Phrase2>
       <MainImg src={mainImg} />
       <MainTitle>{greeting.title}</MainTitle>
       <SubTitle>{greeting.eventDetail}</SubTitle>
@@ -17,20 +18,24 @@ const Main = () => {
 export default Main;
 
 const Phrase = styled.h1`
-  font-family: Broadcast-Matter, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 3rem;
+  font-family: NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
   line-height: 1;
+  margin: 1.5rem 0 0 0;
+  padding-bottom: 1rem;
+`;
+
+const Phrase2 = styled.h3`
+  margin: 0 0 1.5rem 0;
 `;
 
 const MainImg = styled.img`
-  border-radius: 200px 200px 0 0;
   width: 90%;
   max-width: 450px;
-  padding-top: 20px;
 `;
 
 const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: NEXONLv1Bold, NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 2rem;
   color: #2F2120;
   line-height: 120%;
