@@ -19,14 +19,9 @@ import image18 from '@/assets/images/18.jpg'
 import image19 from '@/assets/images/19.jpg'
 import image20 from '@/assets/images/20.jpg'
 import image21 from '@/assets/images/21.jpg'
+import image22 from '@/assets/images/22.jpg'
 
 const images = [   /* 이미지 경로를 리스트로 저장 */
-  {
-    alt: 'image01',
-    source: image01,
-    width: 640,
-    height: 960
-  },
   {
     alt: 'image02',
     source: image02,
@@ -128,7 +123,12 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
     source: image21,
     width: 640,
     height: 960
-  }
+  },{
+  alt: 'image22',
+  source: image22,
+  width: 640,
+  height: 960
+}
 ];
 
 export default images;

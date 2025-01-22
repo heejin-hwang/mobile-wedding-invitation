@@ -3,6 +3,7 @@ import data from 'data.json';
 import Host from '../Contact/Host.tsx';
 import RoundButton from '@/components/RoundButton.tsx';
 import { Caption, Paragraph } from '@/components/Text.tsx';
+import Flower from '@/assets/images/icon_flower.png';
 
 const Invitation = () => {
   const { greeting } = data;
@@ -51,6 +52,6 @@ const MiddleImg = styled.div`
     margin-bottom: 1rem;
     width: 20px;
     height: 40px;
-    background: url(/src/assets/images/icon_flower.png);
+    background: url(${Flower});
     background-size: cover;
 `;
