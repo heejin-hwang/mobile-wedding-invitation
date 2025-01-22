@@ -3,7 +3,7 @@ import data from 'data.json';
 import Host from '../Contact/Host.tsx';
 import RoundButton from '@/components/RoundButton.tsx';
 import { Caption, Paragraph } from '@/components/Text.tsx';
-import Flower from '@/assets/images/icon_flower.png';
+import Flower from '@/assets/images/icon_flower.webp';
 
 const Invitation = () => {
   const { greeting } = data;
