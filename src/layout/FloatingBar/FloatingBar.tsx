@@ -30,21 +30,18 @@ const FloatingBar = ({ isVisible }: { isVisible: boolean }) => {
       url: "",
     };
 
-    if (typeof navigator.share === 'undefined') { 
+    try {
       await navigator.share(shareData);
-      alert("성공");
-      alert(navigator.share);
+    } catch(e) {
+      navigator.clipboard.writeText(window.location.href).then(
+        () => {
+          alert('주소가 복사되었습니다.😉😉');
+        },
+        () => {
+          alert('주소 복사에 실패했습니다.🥲🥲');
+        },
+      );
     }
-    alert(navigator.share);
-    
-    navigator.clipboard.writeText(window.location.href).then(
-      () => {
-        alert('주소가 복사되었습니다.😉😉');
-      },
-      () => {
-        alert('주소 복사에 실패했습니다.🥲🥲');
-      },
-    );
   };
 
   const handleCount = () => {
