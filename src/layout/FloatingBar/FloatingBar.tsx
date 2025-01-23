@@ -30,15 +30,12 @@ const FloatingBar = ({ isVisible }: { isVisible: boolean }) => {
       url: "",
     };
 
-    try {
-      if (typeof navigator.share === 'undefined') { 
-        await navigator.share(shareData);
-        alert("성공");
-        alert(navigator.share);
-      }
-    } catch(e) {
+    if (typeof navigator.share === 'undefined') { 
+      await navigator.share(shareData);
+      alert("성공");
       alert(navigator.share);
     }
+    alert(navigator.share);
     
     navigator.clipboard.writeText(window.location.href).then(
       () => {
