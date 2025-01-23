@@ -23,7 +23,16 @@ const FloatingBar = ({ isVisible }: { isVisible: boolean }) => {
     });
   }, []);
 
-  const handleCopy = () => {
+  const handleCopy = async () => {
+    const shareData = {
+      title: "심수연 & 남현철, 결혼합니다!",
+      text: "2025년 04월 26일 (토) 13:00 서산 아르델 웨딩홀 많관부",
+      url: "",
+    };
+
+    if (typeof navigator.share === 'undefined') { 
+      await navigator.share(shareData);
+    }
     navigator.clipboard.writeText(window.location.href).then(
       () => {
         alert('주소가 복사되었습니다.😉😉');
