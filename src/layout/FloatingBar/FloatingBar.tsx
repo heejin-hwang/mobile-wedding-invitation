@@ -30,9 +30,16 @@ const FloatingBar = ({ isVisible }: { isVisible: boolean }) => {
       url: "",
     };
 
-    if (typeof navigator.share === 'undefined') { 
-      await navigator.share(shareData);
+    try {
+      if (typeof navigator.share === 'undefined') { 
+        await navigator.share(shareData);
+        alert("성공");
+        alert(navigator.share);
+      }
+    } catch(e) {
+      alert(navigator.share);
     }
+    
     navigator.clipboard.writeText(window.location.href).then(
       () => {
         alert('주소가 복사되었습니다.😉😉');
