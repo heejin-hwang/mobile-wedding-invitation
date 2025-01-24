@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const Button = styled.button`
-  //font-family: CookieRun ,NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  //font-family: CookieRun ,NEXONLv1Light, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   padding: 0.5em 0.8em;
   border-radius: 8px;
   border: 1px solid #dfdfdf;

@@ -6,45 +6,15 @@ const Main = () => {
   const { greeting } = data;
   return (
     <div>
-      <Phrase>2025 / 04 / 26</Phrase>
-      <Phrase2>SATURDAY</Phrase2>
-      <MainImg src={mainImg} />
-      <MainTitle>{greeting.title}</MainTitle>
-      <SubTitle>{greeting.eventDetail}</SubTitle>
+      <h1 className='font-[NEXONLv1Light] text-[2rem] leading-none mt-[1.5rem] mb-0 ml-0 mr-0 pb-4'>2025 / 04 / 26</h1>
+      <h3 className='text-[1.17rem] mt-0 mr-0 mb-[1.5rem] ml-0'>SATURDAY</h3>
+      <div className='flex justify-center'>
+        <img src={mainImg} className='w-[90%] max-w-[450px]' />
+      </div>
+      <p className='font-[NEXONLv1Bold] text-[2rem] text-[#2F2120] leading-[120%] whitespace-pre-line mt-1em mb-1em'>{greeting.title}</p>
+      <p className='text-[1.1rem] text-[#2F2120] leading-[140%] whitespace-pre-line'>{greeting.eventDetail}</p>
     </div>
   );
 };
 
 export default Main;
-
-const Phrase = styled.h1`
-  font-family: NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-  line-height: 1;
-  margin: 1.5rem 0 0 0;
-  padding-bottom: 1rem;
-`;
-
-const Phrase2 = styled.h3`
-  margin: 0 0 1.5rem 0;
-`;
-
-const MainImg = styled.img`
-  width: 90%;
-  max-width: 450px;
-`;
-
-const MainTitle = styled.p`
-  font-family: NEXONLv1Bold, NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-  color: #2F2120;
-  line-height: 120%;
-  white-space: pre-line;
-`;
-
-const SubTitle = styled.p`
-  font-size: 1.1rem;
-  color: #2F2120;
-  line-height: 140%;
-  white-space: pre-line;
-`;

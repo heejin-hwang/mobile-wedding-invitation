@@ -1,7 +1,10 @@
+@import "tailwindcss";
+
 body {
-  font-family: NanumRound, NEXONLv1Light, SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: NanumRound, NEXONLv1Light, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  /* white-space: pre-line; */
 
   color: rgba(255, 255, 255, 0.87);
 
@@ -49,3 +52,7 @@ body {
   font-weight: 400;
   font-style: normal;
 } */
+
+@theme {
+  --spacing-1em: 1em;
+}
