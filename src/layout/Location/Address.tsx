@@ -6,32 +6,18 @@ import { ILocationInfo } from '@/types/data.ts';
 const Address = () => {
   const { locationInfo } = data;
   return (
-    <WayWrapper>
+    <div className='flex flex-col items-start my-5 mx-0 gap-5'>
       {locationInfo?.map((item: ILocationInfo) => {
         const { title, desc } = item;
         return (
-          <Way key={title}>
+          <div key={title} className='flex flex-col text-left'>
             <PointTitle>{title}</PointTitle>
             <Caption>{desc}</Caption>
-          </Way>
+          </div>
         );
       })}
-    </WayWrapper>
+    </div>
   );
 };
 
 export default Address;
-
-const WayWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 20px 0px;
-  gap: 20px;
-`;
-
-const Way = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-`;

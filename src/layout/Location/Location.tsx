@@ -8,20 +8,14 @@ import { Caption, PointTitle } from '@/components/Text.tsx';
 const Location = () => {
   const { mapInfo } = data;
   return (
-    <LocationWrapper>
+    <div className='w-[90%] flex flex-col'>
       <PointTitle>{mapInfo.address1}</PointTitle>
       <Caption textAlign={'center'}>{mapInfo.address2}</Caption>
       <Map />
       <MapButtons />
       <Address />
-    </LocationWrapper>
+    </div>
   );
 };
 
 export default Location;
-
-const LocationWrapper = styled.div`
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-`;
