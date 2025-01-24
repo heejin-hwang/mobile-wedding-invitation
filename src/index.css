@@ -23,11 +23,6 @@ body {
 }
 
 @font-face {
-  font-family: 'Broadcast-Matter';
-  src: url('/Broadcast-Matter.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'NanumRound';
   src: url('/NanumSquareRoundOTFL.otf') format('truetype');
 }

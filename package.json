@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@tailwindcss/vite": "^4.0.0",
     "@types/navermaps": "^3.7.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -19,11 +20,10 @@
     "eslint-plugin-react": "^7.33.2",
     "firebase": "^10.5.2",
     "js-confetti": "^0.11.0",
-    "photoswipe": "^5.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-naver-maps": "^0.1.2",
-    "react-photoswipe-gallery": "^2.2.7"
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.6",
@@ -31,13 +31,13 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "@vitejs/plugin-react": "^4.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "prettier": "^3.0.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "vite": "^5.4.14",
     "vite-plugin-svgr": "^4.1.0",
     "vite-tsconfig-paths": "^4.2.3"
   }

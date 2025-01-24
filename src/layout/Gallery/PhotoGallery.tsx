@@ -1,4 +1,3 @@
-import 'photoswipe/style.css';
 import images from '@/layout/Gallery/Images.ts';
 import styled from '@emotion/styled';
 import { useEffect, useRef, useState } from 'react';

@@ -74,36 +74,40 @@
           "tossAccount": ""
         },
         {
-          "name": "황아빠",
+          "name": "심인규",
           "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "기업",
+          "account": "461-019772-01-016"
         },
         {
-          "name": "이엄마",
+          "name": "송미영",
           "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "국민",
+          "account": "402401-04-349915"
         }
       ]
     }
   ],
   "mapInfo": {
-    "address1": "대전 성심당 본점",
-    "address2": "대전 중구 대종로480번길 15\n1588-8069",
-    "naverMap": "https://naver.me/Fk7sbr62",
-    "kakaoMap": "https://kko.to/TOaCtWxDBG",
-    "lat": 36.3274986,
-    "lon": 127.4267664
+    "address1": "아르델웨딩컨벤션",
+    "address2": "충남 서산시 음암면 서해로 3839\n041-669-5500",
+    "naverMap": "https://naver.me/FcmWyAjd",
+    "kakaoMap": "https://kko.kakao.com/QGACB4fFl1",
+    "lat": 36.7832485,
+    "lon": 126.4957946
   },
   "locationInfo": [
     {
-      "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 5·6호선 공덕역 7번 출구 (도보 2분)\n\uD83D\uDC49\uD83C\uDFFB 경의·중앙선, 공항철도 공덕역 10번 출구 (도보 30초)"
+      "title": "\uD83D\uDCCD 자가용",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 서해안 고속도로 서산IC에서 서산방향 직진 7km(7분 소요)\n\uD83D\uDC49\uD83C\uDFFB 서산, 태안 방면은 중앙병원 교차로에서 유턴"
+    },
+    {
+      "title": "\uD83D\uDCCD 버스",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 강남터미널 1시간 40분, 대전터미널 1시간 40분\n\uD83D\uDC49\uD83C\uDFFB 서산터미널 삼성생명빌딩 앞 30분 간격 셔틀버스 운행\n\uD83D\uDC49\uD83C\uDFFB 서산터미널-음암방면 새터말 삼거리 하차"
     },
     {
       "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 주차장 무료주차"
     }
   ],
   "emojis": [
