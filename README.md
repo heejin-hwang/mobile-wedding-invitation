@@ -68,6 +68,9 @@ npm run dev
 
 이 프로젝트는 MIT 라이센스에 따라 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
 
+## 또 하나의 모바일 청첩장
+좀 더 정돈된 디자인을 윈한다면, [스몰빅웨딩](https://bit.ly/4jEJQcg)에서 귀여운 포인트가 가득한 청첩장을 이용해 볼 수 있습니다.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=heejin-hwang/mobile-wedding-invitation&type=Date)](https://star-history.com/#heejin-hwang/mobile-wedding-invitation&Date)
