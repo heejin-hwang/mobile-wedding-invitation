@@ -1,6 +1,6 @@
 {
   "greeting": {
-    "title": "장세모 \uD83D\uDC8D 황네모\n결혼합니다!",
+    "title": "김성현 \uD83D\uDC8D 안선영\n결혼합니다!",
     "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
     "host": {
       "groom": {
@@ -9,11 +9,11 @@
         "parents": [
           {
             "relation": "아버지",
-            "name": "장아빠"
+            "name": "김아빠"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "이희선"
           }
         ]
       },
@@ -23,16 +23,16 @@
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "안정문"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "허은희"
           }
         ]
       }
     },
-    "eventDetail": "2024년 2월 17일 (토) 14:00\n아펠가모 공덕 라로브홀"
+    "eventDetail": "2025년 8월 2일 (토) 10:00\n봉평동 금은커피 야외정원"
   },
   "hostInfo": [
     {
@@ -87,23 +87,13 @@
     }
   ],
   "mapInfo": {
-    "address1": "아펠가모 공덕 라로브홀",
-    "address2": "서울 마포구 마포대로 92\n효성해링턴스퀘어 B동 7층\n02-2197-0230",
-    "naverMap": "",
-    "kakaoMap": "",
+    "address1": "봉평동 금은커피 야외정원",
+    "address2": "055-648-5995",
+    "naverMap": "https://naver.me/5k7wkb7Z",
+    "kakaoMap": "https://place.map.kakao.com/1962565218",
     "lat": 37.54222,
     "lon": 126.952708
   },
-  "locationInfo": [
-    {
-      "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 5·6호선 공덕역 7번 출구 (도보 2분)\n\uD83D\uDC49\uD83C\uDFFB 경의·중앙선, 공항철도 공덕역 10번 출구 (도보 30초)"
-    },
-    {
-      "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령)"
-    }
-  ],
   "emojis": [
     "❤️",
     "💛",
