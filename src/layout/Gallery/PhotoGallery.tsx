@@ -5,7 +5,7 @@ import images from '@/layout/Gallery/Images.ts';
 const PhotoGallery = () => {
   const smallItemStyles: React.CSSProperties = {
     cursor: 'pointer',
-    objectFit: 'contain',
+    objectFit: 'cover',
     width: '100px',
     height: '150px',
   };
